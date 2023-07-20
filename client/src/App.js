@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_BASE = 'http://localhost:3000';
+const API_BASE = 'https://mern-crud-app-a386.onrender.com';
 function App() {
   const [todos,setTodos] = useState([]);
   const [popupActive, setpopupActive] = useState(false)
